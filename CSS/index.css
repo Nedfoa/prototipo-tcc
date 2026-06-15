@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../img/Design sem nome.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 105vh;
+    
+}
+
+.titulo{
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    top:30vh;
+    left: 10vh;
+    padding: 7px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.185);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 2px 20px 2px black;
+    transition: 0.5s;
+}
+
+.titulo:hover{
+    padding: 12px;
+    position: absolute;
+    transform: scale(1.0);
+    transition: 0.5s;
+}
