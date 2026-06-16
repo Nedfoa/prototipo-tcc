@@ -12,6 +12,8 @@ body{
     
 }
 
+
+
 .titulo{
     backdrop-filter: blur(10px);
     color: aliceblue;
@@ -30,4 +32,46 @@ body{
     position: absolute;
     transform: scale(1.0);
     transition: 0.5s;
+    box-shadow: 2px 2px 20px 5px rgb(20, 20, 20);
 }
+
+
+.titulo2{
+    color: rgb(0, 0, 0);
+    top:40vh;
+    left: 15vh;
+    padding: 5px;
+    position: absolute;
+}
+
+
+
+.card-ajuda {
+    position: absolute;
+    top: 80vh;
+    left: 10vw;
+    width: 350px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+
+    text-align: center;
+}
+
+.card-ajuda h2 {
+    margin-bottom: 10px;
+}
+
+.card-ajuda p {
+    margin-bottom: 15px;
+}
+
+.card-ajuda button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
