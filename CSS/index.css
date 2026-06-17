@@ -12,6 +12,49 @@ body{
     
 }
 
+.navbar{
+    background-color: transparent;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 0px 0px 20px;
+     
+    
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    left: 32%;
+    position: absolute;
+}
+
+li, a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #F4D4C2;
+}
+
+.menu a{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
 
 
 .titulo{
