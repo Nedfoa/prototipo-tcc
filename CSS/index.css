@@ -4,11 +4,11 @@
 }
 
 body{
-    background-image: url("../img/Design sem nome.png");
+    background-image: url("../img/fundo2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 105vh;
+    height: 110vh;
     
 }
 
@@ -19,16 +19,15 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 0px 0px 0px 20px;
-     
-    
 }
 
 
 .menu{
     display: flex;
     list-style: none;
-    gap: 80px;
-    left: 32%;
+    gap: 40px;
+    left: 62%;
+    top: 50px;
     position: absolute;
 }
 
@@ -53,68 +52,10 @@ li, a{
     font-family: 'Libre Baskerville', serif;
 }
 
-
-
-
-
-.titulo{
-    backdrop-filter: blur(10px);
-    color: aliceblue;
-    top:30vh;
-    left: 10vh;
-    padding: 7px;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.185);
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 2px 2px 20px 2px black;
-    transition: 0.5s;
+.adotar{
+    background-color: #a72808;
+    border-radius: 7px 7px 7px 7px;
+    padding: 2px;
 }
 
-.titulo:hover{
-    padding: 12px;
-    position: absolute;
-    transform: scale(1.0);
-    transition: 0.5s;
-    box-shadow: 2px 2px 20px 5px rgb(20, 20, 20);
-}
-
-
-.titulo2{
-    color: rgb(0, 0, 0);
-    top:40vh;
-    left: 15vh;
-    padding: 5px;
-    position: absolute;
-}
-
-
-
-.card-ajuda {
-    position: absolute;
-    top: 80vh;
-    left: 10vw;
-    width: 350px;
-    padding: 20px;
-    justify-content: space-around;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-
-    text-align: center;
-}
-
-.card-ajuda h2 {
-    margin-bottom: 10px;
-}
-
-.card-ajuda p {
-    margin-bottom: 15px;
-}
-
-.card-ajuda button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
 
